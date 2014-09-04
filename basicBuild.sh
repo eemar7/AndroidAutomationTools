@@ -8,7 +8,7 @@ project_jar=tutorial.jar
 package_name=<packagename>.TestRun
 
 # number after -t will vary by computer configuration. Type
-# "android list targets" in your console and look for the id assosiated with
+# "<path to android sdk>/tools/android list targets" in your console and look for the id assosiated with
 # "android-16"
 ${android_file} create uitest-project -n ${project_name} -t 2 -p ${path_to_project}
 cd ${path_to_project}
