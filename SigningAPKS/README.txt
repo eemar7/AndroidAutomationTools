@@ -5,7 +5,8 @@ USAGE: ./sign.sh /path/to/unsigned-apk.apk /path/to/desired/new/signed-apk.apk
 
 IMPORTANT: Read script before executing. Paths may need modifying
 
-Prerequisits:
+Prerequisits
+============
 
 Android sdk (Should include the following, though paths may be different)
 ->jarsigner
