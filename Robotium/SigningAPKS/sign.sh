@@ -15,7 +15,7 @@ zip -r ./newZip ./*
 mv /tmp/unzipsign/newZip.zip /tmp/unzipsign/newZip.apk
 
 # sign apk
-jarsigner -verbose -certs -keystore /Users/brajkovic/Downloads/tims_android/debug.keystore -sigalg SHA1withRSA -digestalg SHA1 /tmp/unzipsign/newZip.apk androiddebugkey
+jarsigner -verbose -certs -keystore ~/.android/debug.keystore -sigalg SHA1withRSA -digestalg SHA1 /tmp/unzipsign/newZip.apk androiddebugkey
 
 # verify
 jarsigner -verbose -keystore ~/.android/debug.keystore -verify /tmp/unzipsign/newZip.apk
