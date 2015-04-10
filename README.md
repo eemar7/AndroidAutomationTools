@@ -1,4 +1,8 @@
 AndroidAutomationTools
 ===================
 
-A skeleton for getting started with UIAutomator. Comes with a few helpful functions.
+Resources for creating UIAutomator and Robotium scripts
+
+Includes skeletons to get you started and library functions for useful extentions.
+
+
